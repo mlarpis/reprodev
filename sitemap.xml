@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mlarpis.github.io/reprodev/schedule.html</loc>
-    <lastmod>2025-12-08T10:49:44.989Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mlarpis.github.io/reprodev/lectures.html</loc>
-    <lastmod>2025-12-08T10:49:44.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mlarpis.github.io/reprodev/tutorial_3.html</loc>
-    <lastmod>2025-12-08T10:49:45.177Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mlarpis.github.io/reprodev/slides/lec-2.html</loc>
-    <lastmod>2025-12-08T10:49:45.054Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mlarpis.github.io/reprodev/index.html</loc>
-    <lastmod>2025-12-08T10:49:44.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mlarpis.github.io/reprodev/final.html</loc>
-    <lastmod>2025-12-08T10:49:44.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mlarpis.github.io/reprodev/tutorial_2_cloud.html</loc>
-    <lastmod>2025-12-08T10:49:45.082Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mlarpis.github.io/reprodev/slides/lec-1.html</loc>
-    <lastmod>2025-12-08T10:49:45.050Z</lastmod>
-  </url>
-  <url>
     <loc>https://mlarpis.github.io/reprodev/tutorial_2.html</loc>
-    <lastmod>2025-12-08T10:49:45.082Z</lastmod>
+    <lastmod>2025-12-08T11:01:50.104Z</lastmod>
   </url>
   <url>
     <loc>https://mlarpis.github.io/reprodev/tutorial_1.html</loc>
-    <lastmod>2025-12-08T10:49:45.054Z</lastmod>
+    <lastmod>2025-12-08T11:01:50.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/slides/lec-1.html</loc>
+    <lastmod>2025-12-08T11:01:50.072Z</lastmod>
   </url>
   <url>
     <loc>https://mlarpis.github.io/reprodev/tutorial_1_cloud.html</loc>
-    <lastmod>2025-12-08T10:49:45.054Z</lastmod>
+    <lastmod>2025-12-08T11:01:50.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/tutorial_2_cloud.html</loc>
+    <lastmod>2025-12-08T11:01:50.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/final.html</loc>
+    <lastmod>2025-12-08T11:01:50.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/index.html</loc>
+    <lastmod>2025-12-08T11:01:50.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/tutorial_3.html</loc>
+    <lastmod>2025-12-08T11:01:50.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/lectures.html</loc>
+    <lastmod>2025-12-08T11:01:50.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/slides/lec-2.html</loc>
+    <lastmod>2025-12-08T11:01:50.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mlarpis.github.io/reprodev/schedule.html</loc>
+    <lastmod>2025-12-08T11:01:50.030Z</lastmod>
   </url>
 </urlset>
