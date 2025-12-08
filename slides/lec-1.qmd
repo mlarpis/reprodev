@@ -104,20 +104,13 @@ B. **Reproducibility may greatly benefit you**
 
 ## Definition
 
-![](https://the-turing-way.netlify.app/_images/reproducible-matrix.jpg)
+![](https://book.the-turing-way.org/build/reproducible-matrix-92e4f16016968a0cb337a40191deafc4.jpg)
 
 > A result is reproducible when the *same* analysis steps performed on the *same* dataset consistently produces the *same* answer.
 
 ::: footer
 [The Turing way](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions#rr-overview-definitions)
 :::
-
-## True or false?
-
-![](https://the-turing-way.netlify.app/_images/reproducible-matrix.jpg)
-
-In computational sciences - such as ours - simply having the data and code means that the results are not only replicable, but fully reproducible. 
-
 
 ## Reproducibility of `R` scripts
 
