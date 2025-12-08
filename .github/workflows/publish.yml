@@ -28,7 +28,7 @@ jobs:
           sudo apt-get install libcurl4-openssl-dev
 
       - run:
-          Rscript -e 'install.packages(c("knitr", "rmarkdown", "dplyr", "quarto"))'
+          Rscript -e 'install.packages(c("knitr", "rmarkdown", "dplyr", "quarto", "devtools"))'
 
       - name: Render slides
         run: |
