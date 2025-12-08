@@ -9,3 +9,4 @@
 /_site
 /_site/tutorial_3_img
 _freeze
+**/*.quarto_ipynb
