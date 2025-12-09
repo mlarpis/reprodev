@@ -1,9 +1,6 @@
 ---
 title: "Tutorial 1 (Posit Cloud)"
 subtitle: "Reproducible programming with [`Quarto`](https://quarto.org)"
-authors:
-  - name: "Gerko Vink"
-    orcid: "0000-0001-9767-1924"
 editor: source
 ---
 

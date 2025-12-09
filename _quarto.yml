@@ -16,7 +16,7 @@ website:
       - tutorial_2_cloud.qmd
       - tutorial_3.qmd
       - final.qmd
-  repo-url: https://github.com/gerkovink/reprodev
+  repo-url: https://github.com/mlarpis/reprodev
   repo-actions: [edit, issue]
 
 format:
