@@ -130,7 +130,7 @@ Research Data Management Support workshop:
 Adapted from [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/compendia#checklist)
 ::: 
 
-## Next meeting
+## Next session
 
 Git en GitHub tutorial
 
