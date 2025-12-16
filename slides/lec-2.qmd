@@ -130,19 +130,6 @@ Research Data Management Support workshop:
 Adapted from [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/compendia#checklist)
 ::: 
 
-## Bonus: Preregister your simulation study
-
-![](images/lec-2/replisims.png)
-
-<!-- Siepe, B. S., Bartoš, F., Morris, T. P., Boulesteix, A.-L., Heck, D. W., & Pawel, S. (2024). Simulation studies for methodological research in psychology: A standardized template for planning, preregistration, and reporting. Psychological Methods. https://doi.org/10.1037/met0000695 -->
-
-::: footer
-[Siepe et al. (2024)](https://doi.org/10.1037/met0000695)
-
-[RepliSims](https://replisims.org)
-::: 
-
-
 ## Next meeting
 
 Git en GitHub tutorial
@@ -153,15 +140,11 @@ Git en GitHub tutorial
 
 Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. [https://www.nature.com/articles/533452a](https://www.nature.com/articles/533452a)
 
-Boulesteix, A.-L., Groenwold, R. H., Abrahamowicz, M., Binder, H., Briel, M., Hornung, R., Morris, T. P., Rahnenführer, J., & Sauerbrei, W. (2020). Introduction to statistical simulations in health research. BMJ Open, 10(12), e039921. [https://doi.org/10.1136/bmjopen-2020-039921](https://doi.org/10.1136/bmjopen-2020-039921)
-
 Bryan, J., & TAs, T. S. 545. (n.d.-a). Chapter 33 Why and how we automate data analyses + examples | STAT 545. Retrieved October 30, 2023, from [https://stat545.com/](https://stat545.com/)
 
 Checklist. (n.d.). Retrieved October 31, 2023, from [https://guide.esciencecenter.nl/#/best_practices/checklist](https://guide.esciencecenter.nl/#/best_practices/checklist)
 
 Checklist for a Software Management Plan. (n.d.). [https://doi.org/10.5281/zenodo.2159713](https://doi.org/10.5281/zenodo.2159713)
-
-Comment on Oberman & Vink: Should we fix or simulate the complete data in simulation studies evaluating missing data methods? - Morris—Biometrical Journal—Wiley Online Library. (n.d.). Retrieved October 30, 2023, from [https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202300085](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202300085)
 
 Drost, N., Spaaks, J. H., Andela, B., Veen, L., Zwaan, J. M., Verhoeven, S., Bos, P., Kuzak, M., Werkhoven, B., Attema, J., Hidding, J., Hees, V., Martinez-Ortiz, C., Spreeuw, H., Borgdorff, J., Leinweber, K., Diblen, F., Oord, G., Goncalves, R., … Bakker, T. (2020). Netherlands eScience Center—Software Development Guide (v0.9.1). Zenodo. [https://doi.org/10.5281/ZENODO.4020564](https://doi.org/10.5281/ZENODO.4020564)
 
@@ -178,8 +161,6 @@ Knuth, D. E. (1984). Literate Programming. The Computer Journal, 27(2), 97–111
 
 Marwick, B., Boettiger, C., & Mullen, L. (2018). Packaging Data Analytical Work Reproducibly Using R (and Friends). The American Statistician, 72(1), 80–88. [https://doi.org/10.1080/00031305.2017.1375986](https://doi.org/10.1080/00031305.2017.1375986)
 
-Morris, T. P., White, I. R., & Crowther, M. J. (2019). Using simulation studies to evaluate statistical methods. Statistics in Medicine, 38(11), 2074–2102. [https://doi.org/10.1002/sim.8086](https://doi.org/10.1002/sim.8086)
-
   Navarro, D. (2025, May 18). When good pseudorandom numbers go bad. Notes from a Data Witch. https://blog.djnavarro.net/posts/2025-05-18_multivariate-normal-sampling-floating-point/
 
 NHANES Questionnaires, Datasets, and Related Documentation. (n.d.). Retrieved October 30, 2023, from [https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Begi-nYear=2015](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Begi-nYear=2015)
@@ -190,13 +171,9 @@ Nüst, D., Ostermann, F., Sileryte, R., Hofer, B., Granell, C., Teperek, M., Gra
 
 Peng, R. D. (2011). Reproducible Research in Computational Science. Science, 334(6060), 1226–1227. [https://doi.org/10.1126/science.1213847](https://doi.org/10.1126/science.1213847)
 
-Reliability and reproducibility checklist for molecular dynamics simulations. (2023). Communications Biology, 6(1), Article 1. [https://doi.org/10.1038/s42003-023-04653-0](https://doi.org/10.1038/s42003-023-04653-0)
-
 Sandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten Simple Rules for Reproducible Computational Research. PLOS Computational Biology, 9(10), e1003285. [https://doi.org/10.1371/journal.pcbi.1003285](https://doi.org/10.1371/journal.pcbi.1003285)
 
 Sayre, F., & Riegelman, A. (2019). Replicable Services for Reproducible Research: A Model for Academic Libraries | Sayre | College & Research Libraries. [https://doi.org/10.5860/crl.80.2.260](https://doi.org/10.5860/crl.80.2.260)
-
-Table 1 Reliability and reproducibility checklist for molecular dynamics simulations. (n.d.). Retrieved October 30, 2023, from [https://www.nature.com/articles/s42003-023-04653-0/tables/1](https://www.nature.com/articles/s42003-023-04653-0/tables/1)
 
 Telford, R. J. (2023, September 6). Enough Markdown to Write a Thesis. [https://biostats-r.github.io/biostats/quarto/](https://biostats-r.github.io/biostats/quarto/)
 
