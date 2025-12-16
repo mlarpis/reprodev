@@ -263,6 +263,7 @@ It plays a crucial role in promoting reproducibility and collaboration in data s
 -   **RStudio**: Ideal for R programming with features tailored for data analysis and visualization.
 -   **Visual Studio Code (VS Code)**: Also works with various languages.
 -   **Eclipse (with StatET)**: IDE for R, offering features for R programming and data analysis.
+-   **Positron**: free, AI-assisted environment for Python and R.
 
 ### Popular Notebook Environments
 
