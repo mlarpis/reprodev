@@ -271,6 +271,8 @@ It plays a crucial role in promoting reproducibility and collaboration in data s
 
 -   **R Markdown**: combines code, output, and narrative text in a single document.
 
+-   **Quarto**: open-source scientific and technical publishing system.
+
 ## Structure of a Quarto Document
 
 -   Organized into **blocks**, the fundamental building components of the document's content.
