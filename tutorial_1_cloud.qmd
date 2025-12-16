@@ -23,7 +23,7 @@ The tutorial materials consist of a project structure (borrowed from [here](http
 
 We will work in `R`, althought the materials and flow would be easily applicable to `Python`. The reason for the focus on `R` is to set up a development mode for the next session that I will give on May 9. Because we are focusing on development in `R`, I will outline the `RStudio IDE` workflows. It is not hard to adapt these workflows to e.g. `VScode` or `Jupyter Lab`.
 
-That said, the materials are available [in this branch of the course repository](https://github.com/gerkovink/reprodev/tree/exercise_quarto). 
+That said, the materials are available [in this branch of an old version of the course repository](https://github.com/gerkovink/reprodev/tree/exercise_quarto). 
 You can download the materials by following these steps:
 
 1. Create a GitHub account [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you do not already have one. 
