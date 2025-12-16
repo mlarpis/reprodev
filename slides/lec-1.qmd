@@ -13,7 +13,7 @@ author:
       - name: Methodology & Statistics @ UU
 date: 16 januari 2026
 date-format: "D MMM YYYY"
-bibliography: data/lec-2/publications.bib
+bibliography: data/publications.bib
 execute: 
   echo: true
 editor: source
@@ -312,7 +312,7 @@ author:
       - name: Methodology & Statistics @ UU
 date: 13 Sep 2023
 date-format: "D MMM YYYY"
-bibliography: data/lec-2/publications.bib
+bibliography: data/publications.bib
 execute: 
   echo: true
 editor: source

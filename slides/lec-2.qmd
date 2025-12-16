@@ -1,7 +1,7 @@
 ---
 title: "All flavors markdown"
 date-format: "D MMM YYYY"
-bibliography: data/lec-2/publications.bib
+bibliography: data/publications.bib
 execute: 
   echo: true
 editor: source
