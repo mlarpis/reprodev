@@ -530,13 +530,6 @@ p %>% ggplotly()
 -   `$\mu$` is used for in-line equations
 -   `$$\mu$$` is used for equations
 
-Let's assume that $Y$ follows a normal distribution. $$Y \sim  \mathcal{N}(\mu, \sigma^2)$$ Where we set in our simulations $\mu = 10$ and $\sigma^2 = 5$. We do something for every $Y_i$.
-
-## Equations
-
--   `$\mu$` is used for in-line equations
--   `$$\mu$$` is used for equations
-
 Let's assume that $y$ is a vector with $N$ elements such that $$y \sim  \mathcal{N}(\mu, \sigma^2),$$ where we set in our simulations $\mu = 10$ and $\sigma^2 = 5$. We do something for every $y_i$ with $i = 1, \dots, N$.
 
 ## Code chunks
