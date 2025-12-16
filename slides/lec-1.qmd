@@ -269,7 +269,7 @@ It plays a crucial role in promoting reproducibility and collaboration in data s
 
 -   **Jupyter Notebooks**: Widely used for data science and machine learning, supporting multiple programming and scripting languages.
 
--   **RMarkdown**: combines code, output, and narrative text in a single document.
+-   **R Markdown**: combines code, output, and narrative text in a single document.
 
 ## Structure of a Quarto Document
 
