@@ -612,14 +612,14 @@ ggplot(mpg, aes(x = hwy, y = cty, color = displ)) +
 
 ## Explicit Caching
 
--   **Explicit caching** is a technique used in RMarkdown and Quarto documents to store and reuse the results of expensive computations or data processing steps.
--   It helps improve the efficiency of document generation and ensures reproducibility by avoiding redundant calculations. <br>
+-   technique used in RMarkdown / Quarto to reuse the results of expensive steps
+-   improves efficiency of document generation and preserves reproducibility <br>
 
-### Why Use Explicit Caching?
+### Why Use it?
 
--   **Efficiency**: Caching saves time and resources by avoiding the repeated execution of time-consuming code chunks.
+-   **Efficiency**: Caching saves time and resources by avoiding repeated execution.
 
--   **Reproducibility**: Explicit caching ensures that the same results are used when rendering the document, even if the code is modified or re-executed.
+-   **Reproducibility**: ensures the same results are used when rendering the document, even if the code is modified or re-executed.
 
 -   **Version Control**: Caching reduces the size of version-controlled documents by storing intermediate results separately.
 
