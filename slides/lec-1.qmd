@@ -475,50 +475,6 @@ The equation is centered
 :::
 ```
 
-## Messing it all up
-
-::: columns
-::: {.column width="70%"}
-![Rick taking a bath](images/lec-2/bathrick.png){fig-align="left" width="70%"}
-
-$e^{i\pi} + 1 = 0$
-
-The above figure is left-aligned <br> The caption is also left-aligned <br> The equation is left-aligned too
-:::
-
-::: {.column width="30%"}
-<center>
-
-![Rick taking a bath](images/lec-2/bathrick.png){fig-align="center" width="30%"}
-
-</center>
-
-$$e^{i\pi} + 1 = 0$$
-
-The above figure is centered <br> The caption is also centered <br> The equation is centered
-:::
-:::
-
-``` markup
-::: columns
-::: {.column width="70%"}
-![Rick taking a bad](images/lec-2/bathrick.png){fig-align="left" width="70%"}
-
-$e^{i\pi} + 1 = 0$
-
-:::
-
-::: {.column width="30%"}
-<center>
-![Rick taking a bad](images/lec-2/bathrick.png){fig-align="center" width="30%"}
-</center>
-
-$$e^{i\pi} + 1 = 0$$
-:::
-
-:::
-```
-
 ## Math-ing it all up
 
 ::: columns
