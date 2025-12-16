@@ -462,6 +462,160 @@
     "text": "Lecture slides\nHieronder vind je de lecture slides voor de verschillende onderdelen van de cursus.\n\nLecture 1: Introduction to reproducibility, Quarto and Research Compendiums"
   },
   {
+    "objectID": "slides/lec-2.html#introduction",
+    "href": "slides/lec-2.html#introduction",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "slides/lec-2.html#version-control",
+    "href": "slides/lec-2.html#version-control",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Version Control",
+    "text": "Version Control"
+  },
+  {
+    "objectID": "slides/lec-2.html#git",
+    "href": "slides/lec-2.html#git",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Git",
+    "text": "Git"
+  },
+  {
+    "objectID": "slides/lec-2.html#git---revert",
+    "href": "slides/lec-2.html#git---revert",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Git - Revert",
+    "text": "Git - Revert"
+  },
+  {
+    "objectID": "slides/lec-2.html#git---branch-and-merge",
+    "href": "slides/lec-2.html#git---branch-and-merge",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Git - Branch and Merge",
+    "text": "Git - Branch and Merge"
+  },
+  {
+    "objectID": "slides/lec-2.html#git---branch-merge-revert",
+    "href": "slides/lec-2.html#git---branch-merge-revert",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Git - Branch, Merge, Revert",
+    "text": "Git - Branch, Merge, Revert"
+  },
+  {
+    "objectID": "slides/lec-2.html#github",
+    "href": "slides/lec-2.html#github",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/lec-2.html#github---collaborate",
+    "href": "slides/lec-2.html#github---collaborate",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "GitHub - Collaborate",
+    "text": "GitHub - Collaborate"
+  },
+  {
+    "objectID": "slides/lec-2.html#this-course-on-github",
+    "href": "slides/lec-2.html#this-course-on-github",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "This course on GitHub",
+    "text": "This course on GitHub"
+  },
+  {
+    "objectID": "slides/lec-2.html#installing-github-packages-in-rstudio",
+    "href": "slides/lec-2.html#installing-github-packages-in-rstudio",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Installing GitHub packages in RStudio",
+    "text": "Installing GitHub packages in RStudio\ninstall.packages(\"devtools\")\ndevtools::install_github(repo = \"stefvanbuuren/mice\")"
+  },
+  {
+    "objectID": "slides/lec-2.html#command-line-interface-vs.-gui",
+    "href": "slides/lec-2.html#command-line-interface-vs.-gui",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Command line interface vs. GUI",
+    "text": "Command line interface vs. GUI"
+  },
+  {
+    "objectID": "slides/lec-2.html#linking-github-and-rstudio",
+    "href": "slides/lec-2.html#linking-github-and-rstudio",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Linking GitHub and RStudio",
+    "text": "Linking GitHub and RStudio"
+  },
+  {
+    "objectID": "slides/lec-2.html#making-research-reproducible",
+    "href": "slides/lec-2.html#making-research-reproducible",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Making research reproducible",
+    "text": "Making research reproducible\n\nreproducible documents\nFAIR\nresearch compendiums"
+  },
+  {
+    "objectID": "slides/lec-2.html#fair",
+    "href": "slides/lec-2.html#fair",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "FAIR",
+    "text": "FAIR"
+  },
+  {
+    "objectID": "slides/lec-2.html#gold-standard",
+    "href": "slides/lec-2.html#gold-standard",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Gold standard?",
+    "text": "Gold standard?\n\n\nPeng (2011)"
+  },
+  {
+    "objectID": "slides/lec-2.html#in-practice",
+    "href": "slides/lec-2.html#in-practice",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "In practice",
+    "text": "In practice\n Research Data Management Support workshop:\nWriting Reproducible Manuscripts in R and Python"
+  },
+  {
+    "objectID": "slides/lec-2.html#steps",
+    "href": "slides/lec-2.html#steps",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Steps",
+    "text": "Steps\n\nThink about a good folder structure\n\nSplit up ‘read-only’, ‘human-generated’, and ‘project-generated’ files\n\nCreate folder structure (main directory and sub directories)\n\nAdd a landing page in the form of a README document\nMake the compendium executable (to automatically generate the results; optional)\nMake the compendium into a git repository (optional)\n\nAdd all files needed for reproducing the results of the project\n\nAvoid ‘hard coded’ parameters or human intervention in the execution\n\nMake the compendium as clean and easy to use as possible\n\nInclude a citation file and a LICENSE file with info on how it can be used\n\nPublish your compendium\n\nE.g. on Zenodo (optional, more on this in the last course week)\n\n\n\nAdapted from The Turing Way"
+  },
+  {
+    "objectID": "slides/lec-2.html#next-session",
+    "href": "slides/lec-2.html#next-session",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "Next session",
+    "text": "Next session\nGit en GitHub tutorial\n\nDeelnemers leren samenwerken aan code middels git en GitHub. De basis voor deze tutorial is de groepsopdracht die in de ochtend is gemaakt."
+  },
+  {
+    "objectID": "slides/lec-2.html#references-and-further-reading",
+    "href": "slides/lec-2.html#references-and-further-reading",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "References and further reading",
+    "text": "References and further reading\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. https://www.nature.com/articles/533452a\nBryan, J., & TAs, T. S. 545. (n.d.-a). Chapter 33 Why and how we automate data analyses + examples | STAT 545. Retrieved October 30, 2023, from https://stat545.com/\nChecklist. (n.d.). Retrieved October 31, 2023, from https://guide.esciencecenter.nl/#/best_practices/checklist\nChecklist for a Software Management Plan. (n.d.). https://doi.org/10.5281/zenodo.2159713\nDrost, N., Spaaks, J. H., Andela, B., Veen, L., Zwaan, J. M., Verhoeven, S., Bos, P., Kuzak, M., Werkhoven, B., Attema, J., Hidding, J., Hees, V., Martinez-Ortiz, C., Spreeuw, H., Borgdorff, J., Leinweber, K., Diblen, F., Oord, G., Goncalves, R., … Bakker, T. (2020). Netherlands eScience Center—Software Development Guide (v0.9.1). Zenodo. https://doi.org/10.5281/ZENODO.4020564"
+  },
+  {
+    "objectID": "slides/lec-2.html#references-and-further-reading-1",
+    "href": "slides/lec-2.html#references-and-further-reading-1",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "References and further reading",
+    "text": "References and further reading\nGentleman, R., & Temple Lang, D. (2007). Statistical Analyses and Reproducible Research. Journal of Computational and Graphical Statistics, 16(1), 1–23. https://doi.org/10.1198/106186007X178663\nIvimey-Cook, E. R., Culina, A., Dimri, S., Grainger, M., Kar, F., Lagisz, M., Moran, N. P., Nakagawa, S., Roche, D. G., Sanchez-Tojar, A., Windecker, S. M., & Pick, J. L. (2025). TADA! Simple guidelines to improve code sharing. https://ecoevorxiv.org/repository/view/9806/\nJiménez, R. C., Kuzak, M., Alhamdoosh, M., Barker, M., Batut, B., Borg, M., Capella-Gutierrez, S., Hong, N. C., Cook, M., Corpas, M., Flannery, M., Garcia, L., Gelpí, J. L., Gladman, S., Goble, C., Ferreiro, M. G., Gonzalez-Beltran, A., Griffin, P. C., Grüning, B., … Crouch, S. (2017). Four simple recommendations to encourage best practices in research software (6:876). F1000Research. https://doi.org/10.12688/f1000research.11407.1\nKnuth, D. E. (1984). Literate Programming. The Computer Journal, 27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97\nMarwick, B., Boettiger, C., & Mullen, L. (2018). Packaging Data Analytical Work Reproducibly Using R (and Friends). The American Statistician, 72(1), 80–88. https://doi.org/10.1080/00031305.2017.1375986\nNavarro, D. (2025, May 18). When good pseudorandom numbers go bad. Notes from a Data Witch. https://blog.djnavarro.net/posts/2025-05-18_multivariate-normal-sampling-floating-point/\nNHANES Questionnaires, Datasets, and Related Documentation. (n.d.). Retrieved October 30, 2023, from https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Begi-nYear=2015"
+  },
+  {
+    "objectID": "slides/lec-2.html#references-and-further-reading-2",
+    "href": "slides/lec-2.html#references-and-further-reading-2",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "References and further reading",
+    "text": "References and further reading\nNüst, D., Ostermann, F., Sileryte, R., Hofer, B., Granell, C., Teperek, M., Graser, A., Broman, K., Hettne, K., & Clare, C. (2019). AGILE Reproducible Paper Guidelines. https://doi.org/10.17605/OSF.IO/CB7Z8\nPeng, R. D. (2011). Reproducible Research in Computational Science. Science, 334(6060), 1226–1227. https://doi.org/10.1126/science.1213847\nSandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten Simple Rules for Reproducible Computational Research. PLOS Computational Biology, 9(10), e1003285. https://doi.org/10.1371/journal.pcbi.1003285\nSayre, F., & Riegelman, A. (2019). Replicable Services for Reproducible Research: A Model for Academic Libraries | Sayre | College & Research Libraries. https://doi.org/10.5860/crl.80.2.260\nTelford, R. J. (2023, September 6). Enough Markdown to Write a Thesis. https://biostats-r.github.io/biostats/quarto/"
+  },
+  {
+    "objectID": "slides/lec-2.html#references-and-further-reading-3",
+    "href": "slides/lec-2.html#references-and-further-reading-3",
+    "title": "Introductie tot Git en FAIR development flows",
+    "section": "References and further reading",
+    "text": "References and further reading\nThe Turing Way Community (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.2) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.3233853\nThe Turing Way Community & Scriberia. (2023). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. https://doi.org/10.5281/ZENODO.3332807\nTIER Protocol 4.0 | Project TIER | Teaching Integrity in Empirical Research. (n.d.). Retrieved October 30, 2023, from https://www.projecttier.org/tier-protocol/protocol-4-0/\nTrisovic, A., Lau, M. K., Pasquier, T., & Crosas, M. (2022). A large-scale study on research code quality and execution. Scientific Data, 9(1), Article 1. https://doi.org/10.1038/s41597-022-01143-6\nUtrecht University (2023a, September 26). Best Practices for Writing Reproducible Code. https://utrechtuniversity.github.io/workshop-computational-reproducibility/\nUtrecht University (2023b, October 24). Writing Reproducible Manuscripts in R & Python. https://utrechtuniversity.github.io/workshop-reproducible-manuscripts/"
+  },
+  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",

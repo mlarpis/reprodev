@@ -9,9 +9,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.26">
 
-  <meta name="author" content="Gerko Vink">
-  <meta name="dcterms.date" content="2023-03-15">
-  <title>reprodev – All flavors markdown</title>
+  <meta name="author" content="Pablo Mosteiro">
+  <meta name="dcterms.date" content="2025-12-16">
+  <title>reprodev – Introductie tot Git en FAIR development flows</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,6 +29,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-212014e3f793f9e6081597d888dc7f3e.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -129,15 +195,15 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">All flavors markdown</h1>
+  <h1 class="title">Introductie tot Git en FAIR development flows</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Gerko Vink <a href="https://orcid.org/0000-0001-9767-1924" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+Pablo Mosteiro <a href="https://orcid.org/0000-0001-7231-2773" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
 <div class="quarto-title-author-email">
-<a href="mailto:g.vink@uu.nl">g.vink@uu.nl</a>
+<a href="mailto:p.j.mosteiroromero@uu.nl">p.j.mosteiroromero@uu.nl</a>
 </div>
         <p class="quarto-title-affiliation">
             Methodology &amp; Statistics @ UU University
@@ -145,18 +211,163 @@ Gerko Vink <a href="https://orcid.org/0000-0001-9767-1924" class="quarto-title-a
     </div>
 </div>
 
-  <p class="date">15 Mar 2023</p>
+  <p class="date">16 Dec 2025</p>
 </section>
-<section class="slide level2">
+<section id="introduction" class="slide level2">
+<h2>Introduction</h2>
 
+<img data-src="https://www.gerkovink.com/oldmarkup/Wk1/forfun.png" class="r-stretch"></section>
+<section id="version-control" class="slide level2">
+<h2>Version Control</h2>
+
+<img data-src="images/lec-2/versioncontrol.png" class="r-stretch"></section>
+<section id="git" class="slide level2">
+<h2>Git</h2>
+
+<img data-src="images/lec-2/git_simple.jpg" class="r-stretch"></section>
+<section id="git---revert" class="slide level2">
+<h2>Git - Revert</h2>
+
+<img data-src="images/lec-2/git_revert.jpg" class="r-stretch"></section>
+<section id="git---branch-and-merge" class="slide level2">
+<h2>Git - Branch and Merge</h2>
+
+<img data-src="images/lec-2/git_branch.jpg" class="r-stretch"></section>
+<section id="git---branch-merge-revert" class="slide level2">
+<h2>Git - Branch, Merge, Revert</h2>
+
+<img data-src="images/lec-2/git_merge_revert.jpg" class="r-stretch"></section>
+<section id="github" class="slide level2">
+<h2>GitHub</h2>
+
+<img data-src="images/lec-2/git_collab_1.jpg" class="r-stretch"></section>
+<section id="github---collaborate" class="slide level2">
+<h2>GitHub - Collaborate</h2>
+
+<img data-src="images/lec-2/git_collab_2.jpg" class="r-stretch"></section>
+<section id="this-course-on-github" class="slide level2">
+<h2>This course on GitHub</h2>
+
+<img data-src="images/lec-2/course_git.png" class="r-stretch"></section>
+<section id="installing-github-packages-in-rstudio" class="slide level2">
+<h2>Installing GitHub packages in RStudio</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">install.packages</span>(<span class="st">"devtools"</span>)</span>
+<span id="cb1-2"><a></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="at">repo =</span> <span class="st">"stefvanbuuren/mice"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="command-line-interface-vs.-gui" class="slide level2">
+<h2>Command line interface vs.&nbsp;GUI</h2>
+<p><img data-src="images/lec-2/git_cli.png" style="width:45.0%"> <img data-src="images/lec-2/git_gui.png" style="width:45.0%"></p>
+</section>
+<section id="linking-github-and-rstudio" class="slide level2">
+<h2>Linking GitHub and RStudio</h2>
+
+<img data-src="images/lec-2/git_rstudio.png" class="r-stretch"></section>
+<section id="making-research-reproducible" class="slide level2">
+<h2>Making research reproducible</h2>
+<ul>
+<li>reproducible documents</li>
+<li>FAIR</li>
+<li>research compendiums</li>
+</ul>
+<div class="fragment">
+<p><img data-src="images/lec-2/quarto.png" style="width:80.0%"></p>
+</div>
+</section>
+<section id="fair" class="slide level2">
+<h2>FAIR</h2>
+<p><img data-src="images/lec-2/FAIR.jpeg"> <!-- https://digiresacademy.kit.com/posts/how-to-fair-make-your-data-findable-accessible-interoperable-and-reusable --></p>
+</section>
+<section id="gold-standard" class="slide level2">
+<h2>Gold standard?</h2>
+
+<img data-src="images/lec-2/spectrum.jpeg" class="r-stretch"><div class="footer">
+<p><a href="https://doi.org/10.1126/science.1213847">Peng (2011)</a></p>
+</div>
+</section>
+<section id="in-practice" class="slide level2">
+<h2>In practice</h2>
+<p><img data-src="images/lec-2/rdm.jpeg"> Research Data Management Support workshop:</p>
+<p><a href="https://utrechtuniversity.github.io/workshop-reproducible-manuscripts/introduction.html"><strong>Writing Reproducible Manuscripts in R and Python</strong></a></p>
+</section>
+<section id="steps" class="slide level2">
+<h2>Steps</h2>
+<ul>
+<li>Think about a good folder structure
+<ul>
+<li>Split up ‘read-only’, ‘human-generated’, and ‘project-generated’ files</li>
+</ul></li>
+<li>Create folder structure (main directory and sub directories)
+<ul>
+<li>Add a landing page in the form of a README document</li>
+<li>Make the compendium executable (to automatically generate the results; optional)</li>
+<li>Make the compendium into a git repository (optional)</li>
+</ul></li>
+<li>Add all files needed for reproducing the results of the project
+<ul>
+<li>Avoid ‘hard coded’ parameters or human intervention in the execution</li>
+</ul></li>
+<li>Make the compendium as clean and easy to use as possible
+<ul>
+<li>Include a citation file and a LICENSE file with info on how it can be used</li>
+</ul></li>
+<li>Publish your compendium
+<ul>
+<li>E.g. on Zenodo (optional, more on this in the last course week)</li>
+</ul></li>
+</ul>
+<div class="footer">
+<p>Adapted from <a href="https://the-turing-way.netlify.app/reproducible-research/compendia#checklist">The Turing Way</a></p>
+</div>
+</section>
+<section id="next-session" class="slide level2">
+<h2>Next session</h2>
+<p>Git en GitHub tutorial</p>
+<ul>
+<li>Deelnemers leren samenwerken aan code middels git en GitHub. De basis voor deze tutorial is de groepsopdracht die in de ochtend is gemaakt.</li>
+</ul>
+</section>
+<section id="references-and-further-reading" class="slide level2 smaller">
+<h2>References and further reading</h2>
+<p>Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. <a href="https://www.nature.com/articles/533452a">https://www.nature.com/articles/533452a</a></p>
+<p>Bryan, J., &amp; TAs, T. S. 545. (n.d.-a). Chapter 33 Why and how we automate data analyses + examples | STAT 545. Retrieved October 30, 2023, from <a href="https://stat545.com/">https://stat545.com/</a></p>
+<p>Checklist. (n.d.). Retrieved October 31, 2023, from <a href="https://guide.esciencecenter.nl/#/best_practices/checklist">https://guide.esciencecenter.nl/#/best_practices/checklist</a></p>
+<p>Checklist for a Software Management Plan. (n.d.). <a href="https://doi.org/10.5281/zenodo.2159713">https://doi.org/10.5281/zenodo.2159713</a></p>
+<p>Drost, N., Spaaks, J. H., Andela, B., Veen, L., Zwaan, J. M., Verhoeven, S., Bos, P., Kuzak, M., Werkhoven, B., Attema, J., Hidding, J., Hees, V., Martinez-Ortiz, C., Spreeuw, H., Borgdorff, J., Leinweber, K., Diblen, F., Oord, G., Goncalves, R., … Bakker, T. (2020). Netherlands eScience Center—Software Development Guide (v0.9.1). Zenodo. <a href="https://doi.org/10.5281/ZENODO.4020564">https://doi.org/10.5281/ZENODO.4020564</a></p>
+</section>
+<section id="references-and-further-reading-1" class="slide level2 smaller">
+<h2>References and further reading</h2>
+<p>Gentleman, R., &amp; Temple Lang, D. (2007). Statistical Analyses and Reproducible Research. Journal of Computational and Graphical Statistics, 16(1), 1–23. <a href="https://doi.org/10.1198/106186007X178663">https://doi.org/10.1198/106186007X178663</a></p>
+<p>Ivimey-Cook, E. R., Culina, A., Dimri, S., Grainger, M., Kar, F., Lagisz, M., Moran, N. P., Nakagawa, S., Roche, D. G., Sanchez-Tojar, A., Windecker, S. M., &amp; Pick, J. L. (2025). TADA! Simple guidelines to improve code sharing. https://ecoevorxiv.org/repository/view/9806/</p>
+<p>Jiménez, R. C., Kuzak, M., Alhamdoosh, M., Barker, M., Batut, B., Borg, M., Capella-Gutierrez, S., Hong, N. C., Cook, M., Corpas, M., Flannery, M., Garcia, L., Gelpí, J. L., Gladman, S., Goble, C., Ferreiro, M. G., Gonzalez-Beltran, A., Griffin, P. C., Grüning, B., … Crouch, S. (2017). Four simple recommendations to encourage best practices in research software (6:876). F1000Research. <a href="https://doi.org/10.12688/f1000research.11407.1">https://doi.org/10.12688/f1000research.11407.1</a></p>
+<p>Knuth, D. E. (1984). Literate Programming. The Computer Journal, 27(2), 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a></p>
+<p>Marwick, B., Boettiger, C., &amp; Mullen, L. (2018). Packaging Data Analytical Work Reproducibly Using R (and Friends). The American Statistician, 72(1), 80–88. <a href="https://doi.org/10.1080/00031305.2017.1375986">https://doi.org/10.1080/00031305.2017.1375986</a></p>
+<p>Navarro, D. (2025, May 18). When good pseudorandom numbers go bad. Notes from a Data Witch. https://blog.djnavarro.net/posts/2025-05-18_multivariate-normal-sampling-floating-point/</p>
+<p>NHANES Questionnaires, Datasets, and Related Documentation. (n.d.). Retrieved October 30, 2023, from <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Begi-nYear=2015">https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Begi-nYear=2015</a></p>
+</section>
+<section id="references-and-further-reading-2" class="slide level2 smaller">
+<h2>References and further reading</h2>
+<p>Nüst, D., Ostermann, F., Sileryte, R., Hofer, B., Granell, C., Teperek, M., Graser, A., Broman, K., Hettne, K., &amp; Clare, C. (2019). AGILE Reproducible Paper Guidelines. <a href="https://doi.org/10.17605/OSF.IO/CB7Z8">https://doi.org/10.17605/OSF.IO/CB7Z8</a></p>
+<p>Peng, R. D. (2011). Reproducible Research in Computational Science. Science, 334(6060), 1226–1227. <a href="https://doi.org/10.1126/science.1213847">https://doi.org/10.1126/science.1213847</a></p>
+<p>Sandve, G. K., Nekrutenko, A., Taylor, J., &amp; Hovig, E. (2013). Ten Simple Rules for Reproducible Computational Research. PLOS Computational Biology, 9(10), e1003285. <a href="https://doi.org/10.1371/journal.pcbi.1003285">https://doi.org/10.1371/journal.pcbi.1003285</a></p>
+<p>Sayre, F., &amp; Riegelman, A. (2019). Replicable Services for Reproducible Research: A Model for Academic Libraries | Sayre | College &amp; Research Libraries. <a href="https://doi.org/10.5860/crl.80.2.260">https://doi.org/10.5860/crl.80.2.260</a></p>
+<p>Telford, R. J. (2023, September 6). Enough Markdown to Write a Thesis. <a href="https://biostats-r.github.io/biostats/quarto/">https://biostats-r.github.io/biostats/quarto/</a></p>
+</section>
+<section id="references-and-further-reading-3" class="slide level2 smaller">
+<h2>References and further reading</h2>
+<p>The Turing Way Community (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.2) [Computer software]. Zenodo. <a href="https://doi.org/10.5281/ZENODO.3233853">https://doi.org/10.5281/ZENODO.3233853</a></p>
+<p>The Turing Way Community &amp; Scriberia. (2023). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. <a href="https://doi.org/10.5281/ZENODO.3332807">https://doi.org/10.5281/ZENODO.3332807</a></p>
+<p>TIER Protocol 4.0 | Project TIER | Teaching Integrity in Empirical Research. (n.d.). Retrieved October 30, 2023, from <a href="https://www.projecttier.org/tier-protocol/protocol-4-0/">https://www.projecttier.org/tier-protocol/protocol-4-0/</a></p>
+<p>Trisovic, A., Lau, M. K., Pasquier, T., &amp; Crosas, M. (2022). A large-scale study on research code quality and execution. Scientific Data, 9(1), Article 1. <a href="https://doi.org/10.1038/s41597-022-01143-6">https://doi.org/10.1038/s41597-022-01143-6</a></p>
+<p>Utrecht University (2023a, September 26). Best Practices for Writing Reproducible Code. <a href="https://utrechtuniversity.github.io/workshop-computational-reproducibility/">https://utrechtuniversity.github.io/workshop-computational-reproducibility/</a></p>
+<p>Utrecht University (2023b, October 24). Writing Reproducible Manuscripts in R &amp; Python. <a href="https://utrechtuniversity.github.io/workshop-reproducible-manuscripts/">https://utrechtuniversity.github.io/workshop-reproducible-manuscripts/</a></p>
 
 
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="images/logo.png" class="slide-logo"></p>
+<p><img src="images/logoUU.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>Gerko Vink and Hanne Oberman - Methods &amp; Statistics @ UU</p>
+<p>Pablo Mosteiro and Hanne Oberman - Methodology and Statistics @ UU</p>
 </div>
 </div></div>
 
