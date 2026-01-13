@@ -8,7 +8,7 @@ author:
       - name: Methodology & Statistics @ UU University
 date: 16 Dec 2025
 date-format: "D MMM YYYY"
-bibliography: data/lec-2/publications.bib
+bibliography: data/publications.bib
 execute: 
   echo: true
 editor: source

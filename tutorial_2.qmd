@@ -1,13 +1,10 @@
 ---
 title: "Tutorial 2"
 subtitle: "[`git`](https://git-scm.com) and [`GitHub`](https://github.com) - creating a visible portfolio"
-authors:
-  - name: "Gerko Vink"
-    orcid: "0000-0001-9767-1924"
 editor: source
 ---
 
-You can use [this repository](https://github.com/gerkovink/reprodev-exercise_quarto) as the base for Tutorial 2. 
+You can use [this repository](https://github.com/mlarpis/reprodev-exercise_quarto) as the base for Tutorial 2. 
 
 # Introduction
 `git` and `GitHub` are tools that allow you to create a visible portfolio of your work. This tutorial will guide you through the process of creating a new repository on `GitHub`, forking the repository, creating a new branch, adjusting the compendium, creating a pull request, reviewing the pull request, and merging the pull request.

@@ -1,13 +1,10 @@
 ---
 title: "Tutorial 2 (Posit Cloud)"
 subtitle: "[`git`](https://git-scm.com) and [`GitHub`](https://github.com) - creating a visible portfolio"
-authors:
-  - name: "Gerko Vink"
-    orcid: "0000-0001-9767-1924"
 editor: source
 ---
 
-You can use [this repository](https://github.com/gerkovink/reprodev-exercise_quarto) as the base for Tutorial 2. 
+You can use [this repository](https://github.com/mlarpis/reprodev-exercise_quarto) as the base for Tutorial 2. 
 
 # Introduction
 `git` and `GitHub` are tools that allow you to create a visible portfolio of your work. This tutorial will guide you through the process of creating a new repository on `GitHub`, forking the repository, creating a new branch, adjusting the compendium, creating a pull request, reviewing the pull request, and merging the pull request.
@@ -72,7 +69,7 @@ First, we will create a new repository on `GitHub`. Go to [https://www.github.co
 ## 2. Add content
 This one is easy!
 
-Add the content from Tutorial 1 to the folder that you just created. If you don't have a record of it, you can use [this repository](https://github.com/gerkovink/reprodev-exercise_quarto) as the base. 
+Add the content from Tutorial 1 to the folder that you just created. If you don't have a record of it, you can use [this repository](https://github.com/mlarpis/reprodev-exercise_quarto) as the base. 
 
 You can overwrite the `README.md` file with the one from Tutorial 1. Add all files from the your repo, except for the _renv_ folder (if you do you will get a complaint about the number of files). There is no need to overwrite the `.gitignore` and `LICENSE` files, if relevant. 
 
@@ -137,7 +134,7 @@ This is a free exercise. You must add something to the  `Quarto` file and re-ren
 3. Commit the changes to the repository (commit button) and push the changes to your fork of the repository on `GitHub` by clicking the green up arrow.
 
 ## 5. Create a pull request
-Now that you have contributed to the project and have made changes to the repository, you can create a pull request to the main repository. I will illustrate this proces on [my `reprodev-exercise_quarto` repository](https://github.com/gerkovink/reprodev-exercise_quarto)
+Now that you have contributed to the project and have made changes to the repository, you can create a pull request to the main repository. I will illustrate this process on [the course's `reprodev-exercise_quarto` repository](https://github.com/mlarpis/reprodev-exercise_quarto)
 
 1. Go to the forked repository on `GitHub` and click on _Compare & pull request_.
 ![](tutorial_2_img/pr.png){width=100%}
