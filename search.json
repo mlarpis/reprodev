@@ -389,7 +389,7 @@
     "href": "tutorial_3.html",
     "title": "Tutorial 3",
     "section": "",
-    "text": "TipRecording of the flow\n\n\n\nIf you’d like to revisit this tutorial later on, there exists a recording of the discussion of the outlined flow here (download for the 1h+ recording)\n\n\nVolg deze link voor de rest van deze tutorial."
+    "text": "Volg deze link voor de inhoud van deze tutorial.\nLet op: Als je gebruikmaakt van Posit Cloud, voer dan eerst de onderstaande stappen uit.\n\n\n\n\n\n\nWarningR package development via Posit Cloud\n\n\n\n\nBuild tab -&gt; configure build tools\nRun install.packages(c(\"devtools\", \"roxygen2\", \"testthat\", \"knitr\", \"usethis\", \"here\"))\nRun usethis::create_package(here::here())\n\n\n\n\n\n\n\n\n\nTipRecording of the flow\n\n\n\nIf you’d like to revisit this tutorial later on, there exists a recording of the discussion of the outlined flow here (download for the 1h+ recording)"
   },
   {
     "objectID": "lectures.html",
