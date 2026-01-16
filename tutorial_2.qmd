@@ -89,7 +89,7 @@ Make sure that all folders in your repo are detected by `git`. If you are using 
 Depending on your platform, you might need to change the `docs` folder to `doc` or `documents` for it to be detected by `git`. 
 :::
 
-After making sure all changes to the folder are detected, create a commit message (`initial commit` is conventional) and click _Commit to main_, followed by _Push origin_.
+After making sure all changes to the folder are detected, create a commit message (`initial commit` is conventional) and click _Commit to main_, followed by _Publish branch_.
 
 ![](tutorial_2_img/init.png){width=100%}
 
@@ -131,7 +131,7 @@ This is a free exercise. You must add something to the  `Quarto` file and re-ren
  
 2. Re-render the `Quarto` file and make sure that the changes are visible in the _html_ folder.
 
-3. Commit the changes to the repository and push the changes to your fork of the repository on `GitHub` by clicking _Push Origin_.
+3. Commit the changes to the repository and push the changes to your fork of the repository on `GitHub` by clicking _Publish branch_.
 
 ## 5. Create a pull request
 Now that you have contributed to the project and have made changes to the repository, you can create a pull request to the main repository.
