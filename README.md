@@ -1,1 +1,7 @@
-This is the course page repo for _Reproducible Programming and Development_. View the page [here](https://mlarpis.github.io/reprodev).
+# my-reproducible manuscript
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of my-reproducible-manuscript is to ...
+
