@@ -4,7 +4,8 @@ subtitle: "[`git`](https://git-scm.com) and [`GitHub`](https://github.com) - cre
 editor: source
 ---
 
-You can use [this repository](https://github.com/mlarpis/reprodev-exercise_quarto) as the base for Tutorial 2. 
+This tutorial starts where we left off in [tutorial 1](tutorial_1.html). If you didn't finish that tutorial,
+you can use [this repository](https://github.com/mlarpis/reprodev-exercise_quarto) as the base for Tutorial 2. 
 
 # Introduction
 `git` and `GitHub` are tools that allow you to create a visible portfolio of your work. This tutorial will guide you through the process of creating a new repository on `GitHub`, forking the repository, creating a new branch, adjusting the compendium, creating a pull request, reviewing the pull request, and merging the pull request.
